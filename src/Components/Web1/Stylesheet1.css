@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #87CEEB; /* Sky blue background */
+  }
+  
+  .sun {
+    width: 100px;
+    height: 100px;
+    background-color: #FFD700; /* Sun's color (yellow) */
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50px; /* Initial position below the viewport */
+    left: calc(50% - 50px);
+    animation: sunrise 5s linear forwards;
+  }
+  
+  @keyframes sunrise {
+    0% {
+      bottom: -50px;
+    }
+    100% {
+      bottom: calc(50% - 50px); /* Final position at the center of the viewport */
+    }
+  }
