@@ -1,0 +1,21 @@
+/* ... Previous CSS code ... */
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-col {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* ... Rest of the CSS code ... */

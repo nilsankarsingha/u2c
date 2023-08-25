@@ -1,11 +1,12 @@
 import './App.css';
-import Home from './Components/Web1/Home';
+import SolarSys from './Components/Web2/SolarSys';
+
 
 
 function App() {
   return (
     <div>
-        <Home/>
+      <SolarSys/>
        
    
     </div>
