@@ -1,12 +1,12 @@
 import './App.css';
-import SolarSys from './Components/Web2/SolarSys';
+import Mweb1 from './Components/Web1/Mweb1';
 
 
 
 function App() {
   return (
     <div>
-      <SolarSys/>
+      <Mweb1/>
        
    
     </div>

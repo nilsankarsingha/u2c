@@ -5,7 +5,7 @@ const DrawHome = () => {
   return (
    
     <div className='container'>
-    <center>
+
     <div class="landscape">
     <div class="sun"></div>
     <div class="mountains">
@@ -15,7 +15,7 @@ const DrawHome = () => {
     <div class="grass"></div>
   </div>
 
-  </center>
+
     </div>
   )
 }
